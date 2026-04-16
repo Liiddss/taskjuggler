@@ -169,7 +169,7 @@ task WMGame "Web & Mobile Game" {
     }
 
     task tMFEt "Mobile Front End Test" {
-      effort 78d
+      effort 78d  # se ha alargado esta tarea para que se vea en la planificación la tarea de los test en fecha. 
       allocate dev1
       depends WMGame.tmovF.tMFEc
     }
