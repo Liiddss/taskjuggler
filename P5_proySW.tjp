@@ -163,7 +163,7 @@ task WMGame "Web & Mobile Game" {
     }
 
     task tMFEc "Movil Front End Construction" {
-      effort 20d
+      effort 16d
       allocate dev2, dev3
       depends WMGame.tmovF.tMGUId
     }
